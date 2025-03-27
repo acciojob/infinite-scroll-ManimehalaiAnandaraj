@@ -14,7 +14,7 @@ function addlistItems(numItems) {
 addlistItems(10)
 
 window.addEventListener('scroll',()=>{
-	if(window.innerHTML + window.scrolly >= document.body.offsetHeight)
+	if(window.innerHeight + window.scrolly >= document.body.offsetHeight)
 	{
 		addlistItems(2);
 	}
